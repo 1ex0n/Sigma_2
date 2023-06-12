@@ -1,0 +1,39 @@
+/* Start Logos */
+
+.logos {
+	margin-top: 96px;
+ 
+	.container {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-wrap: wrap;
+ 
+	  div {
+		 width: 241px;
+		 height: 86px;
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+		 border-radius: 10px;
+		 filter: grayscale(1);
+		 transition: 0.3s;
+ 
+		 &:hover {
+			filter: grayscale(0);
+			background: var(--white, #fff);
+			box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+		 }
+	  }
+	}
+ }
+ 
+ @media screen and (min-width: 1300px) {
+	.logos .container {
+	  justify-content: space-between;
+	  flex-wrap: nowrap;
+	}
+ }
+ 
+ /* End Logos */
+ 

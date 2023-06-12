@@ -1,0 +1,98 @@
+/* Start Destinations */
+
+.destination {
+	margin-top: 123px;
+ 
+	.title {
+	  p {
+		 margin-bottom: 8px;
+	  }
+ 
+	  h2 {
+		 margin-top: 8px;
+	  }
+	}
+ 
+	.cards {
+	  display: flex;
+	  justify-content: space-evenly;
+	  margin-top: 60px;
+	  flex-wrap: wrap;
+	  gap: 20px;
+ 
+	  .card {
+		 overflow: hidden;
+		 border-radius: 24px;
+		 filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+		 cursor: pointer;
+ 
+		 &:hover {
+			box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+			transition: 0.5s;
+			scale: 103%;
+		 }
+ 
+		 figure {
+			width: 314px;
+			height: 457px;
+			overflow: hidden;
+			position: relative;
+			margin: 0;
+ 
+			figcaption {
+			  position: absolute;
+			  z-index: 10;
+			  background: var(--white, #fff);
+			  width: 100%;
+			  bottom: 0;
+			  height: 130px;
+			  color: var(--main-color, #5e6282);
+			  font-size: 18px;
+			  font-weight: 500;
+			  line-height: 22.41px;
+			  padding: 27px 25px 42px 20px;
+			}
+ 
+			img {
+			  margin-left: -80px;
+			}
+		 }
+ 
+		 div {
+			display: flex;
+			justify-content: space-between;
+ 
+			p {
+			  margin: 0;
+			}
+		 }
+ 
+		 figcaption > p {
+			font-size: 16px;
+			line-height: 19.92px;
+			padding-left: 32px;
+			position: relative;
+ 
+			&::before {
+			  content: "";
+			  background-image: url("../images/navigation1.png");
+			  width: 20px;
+			  height: 20px;
+			  position: absolute;
+			  left: 0;
+			}
+		 }
+	  }
+	}
+ }
+ 
+ @media screen and (min-width: 1200px) {
+	.destination {
+	  background-image: url(../images/Decore-destinations.svg);
+	  background-repeat: no-repeat;
+	  background-position: calc((100% - 1170px) / 2 + 1130px) 85%;
+	}
+ }
+ 
+ /* End Destinations */
+ 

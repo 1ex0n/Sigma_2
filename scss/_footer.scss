@@ -1,0 +1,119 @@
+/* Start Footer  */
+
+footer {
+	margin-top: 100px;
+ 
+	.container .flex {
+	  display: flex;
+	  justify-content: center;
+	  gap: 80px 20px;
+	  text-align: center;
+	  flex-wrap: wrap;
+ 
+	  .site-name {
+		 width: 207px;
+ 
+		 .jadoo {
+			margin: 0;
+			font-weight: 500;
+			font-size: 44px;
+			line-height: 66px;
+			color: var(--dark-blue, #181e4b);
+		 }
+ 
+		 p {
+			margin-top: 19px;
+			font-size: 13px;
+			line-height: 16.19px;
+			color: var(--main-color, #5e6282);
+		 }
+	  }
+ 
+	  > ul {
+		 display: flex;
+		 justify-content: space-between;
+		 width: 474px;
+		 margin-top: 18px;
+ 
+		 > li {
+			font-size: 21px;
+			font-weight: 700;
+			line-height: 26.15px;
+			color: var(--footer-categorie, #5e6282);
+ 
+			ul {
+			  margin-top: 34px;
+			  display: flex;
+			  flex-direction: column;
+			  gap: 14px;
+ 
+			  li {
+				 font-size: 18px;
+				 font-weight: 500;
+				 line-height: 22.41px;
+				 color: var(--main-color, #5e6282);
+			  }
+			}
+		 }
+	  }
+ 
+	  .social {
+		 width: 214px;
+		 margin-top: 18px;
+ 
+		 div:first-of-type {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+ 
+			div {
+			  border-radius: 50%;
+			  display: flex;
+			  justify-content: center;
+			  line-height: 41px;
+			}
+		 }
+ 
+		 p {
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 24.9px;
+			letter-spacing: 0.005em;
+			color: var(--main-color, #5e6282);
+			margin-top: 26px;
+			margin-bottom: 16px;
+		 }
+ 
+		 div:last-of-type {
+			display: flex;
+			justify-content: space-between;
+		 }
+	  }
+	}
+ 
+	.copyright {
+	  margin-top: 84px;
+	  margin-bottom: 79px;
+	  text-align: center;
+	  font-weight: 500;
+	  font-size: 14px;
+	  line-height: 17.43px;
+	  color: var(--main-color, #5e6282);
+	}
+ }
+ 
+ @media screen and (min-width: 992px) {
+	footer {
+	  margin-top: 96px;
+	}
+ }
+ 
+ @media screen and (min-width: 992px) {
+	footer .container .flex {
+	  justify-content: space-between;
+	  text-align: left;
+	}
+ }
+ 
+ /* End Footer  */
+ 

@@ -1,0 +1,130 @@
+/* Start Variables */
+
+:root {
+	/* Use In the Most Of Page Paragraph And Heading of subcribe and footer */
+	--main-color:#5e6282;
+ 
+	/* Use In Picture In Serction Div */
+	--book-image:#84829a;
+ 
+	/* Use To Header tag and play demo And services Hover*/
+	--orange:#df6951;
+ 
+	/* Use in h1 in header and jadoo in footer */
+	--dark-blue:#181e4b;
+ 
+	/* Use in button header + background hover services 
+	+ back fig caption destinations + images background + testimonials */
+	--white:#fff;
+ 
+	/* Use In footer Categories Big Title  */
+	--footer-categorie:#080809;
+ }
+ 
+ @font-face {
+	font-family: "Google Sans";
+	src: url("../Font/ProductSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+ }
+ 
+ @font-face {
+	font-family: "Google Sans";
+	src: url("../Font/ProductSans-Medium.ttf") format("truetype");
+	font-weight: 500;
+ }
+ 
+ @font-face {
+	font-family: "Google Sans";
+	src: url("../Font/ProductSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+ }
+ 
+ /* End Variables */
+ /* Start Global Rules */
+ 
+ * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+ html {
+	scroll-behavior: smooth;
+ }
+ 
+ body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	margin: 0;
+ 
+	/* 
+	  font-family: 'Poppins', sans-serif;
+	  font-family: 'Open Sans', sans-serif;
+	  font-family: 'Volkhov', serif; 
+	  */
+ }
+ 
+ .container {
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+ /* Small */
+ @media (min-width: 768px) {
+	.container {
+	  width: 750px;
+	}
+ }
+ 
+ /* Medium */
+ @media (min-width: 992px) {
+	.container {
+	  width: 970px;
+	}
+ }
+ 
+ /* Large */
+ @media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
+ }
+ 
+ ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+ }
+ 
+ a {
+	text-decoration: none;
+ }
+ 
+ /* End Global Rules */
+ 
+ /* Start Components  */
+ 
+ .title {
+	text-align: center;
+ 
+	p {
+	  color: var(--main-color, #5e6282);
+	  font-size: 18px;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  margin-bottom: 10px;
+	  margin-top: 8px;
+	}
+ 
+	h2 {
+	  color: #14183e;
+	  font-family: "Volkhov";
+	  font-size: 50px;
+	  font-weight: 700;
+	  margin-top: 10px;
+	  margin-bottom: 0;
+	}
+ }
+ 
+ /* End Components  */
+ 
